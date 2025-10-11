@@ -105,6 +105,7 @@ public class Controlador {
                     String horaAtaque = LocalTime.now().format(formatoHora);
                     SwingUtilities.invokeLater(() -> {
                         vista.areaLog.append("[" + horaAtaque + "] " + atacante.nombre + " realiza ataque " + atacante.ataques + "\n");
+                        System.out.println("[" + horaAtaque + "] " + atacante.nombre + " realiza ataque " + atacante.ataques + "\n");
                     });
                 }
             }

@@ -37,7 +37,7 @@ public class Ventana extends JFrame {
         txtNombre = new JTextField();
         txtVelocidad = new JTextField();
         btnAgregar = new JButton("Agregar Jugador");
-
+        
         form.add(new JLabel("Nombre:"));
         form.add(txtNombre);
         form.add(new JLabel("Velocidad (ms):"));
