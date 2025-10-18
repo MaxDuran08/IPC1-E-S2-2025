@@ -1,0 +1,4 @@
+codigo_cliente,nombre,genero,cumpleanos,contrasena
+cl-001, cliente 1, M, 10/03/1999, 12345
+cl-002, cliente 2, M, 9/02/1998, 12345
+cl-003, cliente 3, M, 8/01/1997, 12345
